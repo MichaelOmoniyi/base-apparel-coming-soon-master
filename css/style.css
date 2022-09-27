@@ -1,0 +1,189 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Josefin Sans', sans-serif;
+    background-image: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
+    background-image: -moz-linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
+}
+.cardContainer{
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+    overflow: auto;
+}
+.brandLogo1 {
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    padding-left: 7vw;
+}
+.brandLogo2{
+    display: none;
+}
+.cardBox{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.desktopImage{
+    display: none;
+}
+.mobileImage{
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin-bottom: 1rem;
+}
+.cardContent{
+    box-sizing: border-box;
+    text-align: left;
+    width: 100%;
+    margin-top: 0%;
+    padding: 3.5rem;
+    padding-bottom: 3rem;
+}
+.cardContent h1{
+    font-weight: 400;
+    color: hsl(0, 36%, 70%);
+    justify-content: center;
+    text-align: center;
+    font-size: 14vw;
+    margin-bottom: 1.5rem;
+}
+.comingSoon {
+    color: hsl(0, 6%, 24%);
+    font-weight: 600;
+}
+.cardContent p{
+    font-weight: 500;
+    line-height: 1.6;
+    line-break: auto;
+    font-size: 3.5vw;
+    text-align: center;
+    margin-bottom: 3rem;
+    color: hsl(0, 36%, 70%);
+}
+.customerInput{
+    display: flex;
+    border: 1px solid hsl(0, 36%, 70%);
+    border-radius: 100px;
+    box-sizing: border-box;
+    margin-bottom: 4rem;
+    height: 10vh;
+}
+.customerInput input {
+    width: 100%;
+    height: 100%;
+    outline: 0;
+    border: 0;
+    margin-left: 3rem;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 4vw;
+}
+.customerInput input::placeholder {
+    font-size: 3vw;
+}
+.customerInput img {
+    background-image: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+    background-image: -moz-linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+    max-width: 30vw;
+    height: 100%;
+    border-radius: 250px;
+    padding: 1rem;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    box-shadow: 0vw 1vw 90px hsl(0, 36%, 70%);
+}
+.customerInput img:hover {
+    background-color: hsl(0, 80%, 86%);
+    background-image: none;
+    border: 5px solid hsl(0, 80%, 86%);
+}
+.attribution { 
+    font-size: 2vw; 
+    text-align: center; 
+    margin-bottom: 3vh;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+@media (min-width: 1440px) {
+    .cardContainer{
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+        margin-bottom: 1rem;
+        overflow: auto;
+    }
+    .cardBox{
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+        margin: auto;
+        flex-direction: row-reverse;
+    }
+    .desktopImage{
+        width: 40%;
+        height: 100%;
+        display: block;
+    }
+    .mobileImage{
+        display: none;
+    }
+    .cardContent{
+        width: 60%;
+        height: 100%;
+        padding: 3rem 13vw 3rem 10vw;
+    }
+    .brandLogo1 {
+        display: none;
+    }
+    .brandLogo2 {
+        display: block;
+        margin-bottom: 15vh;
+    }
+    .brandLogo2 img {
+        width: 15vw;
+    }
+    .cardContent h1{
+        margin-bottom: 2rem;
+        font-size: 5vw;
+        line-height: 1;
+        text-align: left;
+        letter-spacing: 20px;
+    }
+    .cardContent p{
+        font-size: 1.3vw;
+        text-align: left;
+        margin-bottom: 3rem;
+    }
+    .customerInput{
+        width: 100%;
+        height: 9vh;
+        border-radius: 100vw;
+    }
+    .customerInput input{
+        margin-left: 2vw;
+        margin-top: 1vh;
+        font-size: 1vw;
+    }
+    .customerInput input::placeholder {
+        font-size: 1vw;
+    }
+    .customerInput img {
+        width: 20%;
+        height: 100%;
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+        padding-left: 3vw;
+        padding-right: 3vw;
+        border-radius: 100vw;
+        box-shadow: 0vw 1vw 90px hsl(0, 36%, 70%);
+    }
+}
