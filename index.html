@@ -12,6 +12,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<script src="js/script.js"></script>
 </head>
 <body>
   <div class="cardContainer">
@@ -31,9 +32,11 @@
   Add your email below to stay up-to-date with announcements and our launch deals.
         </p>
         <div class="customerInput">
-          <input type="email" autocomplete="" placeholder="Email Address">
-          <img src="images/icon-arrow.svg" alt="Input Enter">
+          <input onkeyup="check()" id="email" type="email" autocomplete="" placeholder="Email Address">
+          <img id="error" src="images/icon-error.svg" alt="emailInvalid">
+          <img class="arrow" src="images/icon-arrow.svg" alt="Input Enter">
         </div>
+        <div class="errorMessage">Please provide a valid email</div>
       </div>
     </div>
   </div>
