@@ -45,7 +45,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/MichaelOmoniyi/base-apparel-coming-soon-master)
+- Solution URL: [https://github.com/MichaelOmoniyi/base-apparel-coming-soon-master](https://github.com/MichaelOmoniyi/base-apparel-coming-soon-master)
 - Live Site URL: [Add live site URL here](https://michaelomoniyi.github.io/base-apparel-coming-soon-master/)
 
 ## My process
