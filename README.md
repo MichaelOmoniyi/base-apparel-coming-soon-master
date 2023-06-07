@@ -41,12 +41,11 @@ Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to t
 
 Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
 
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
 ### Links
 
-- Solution URL: [https://github.com/MichaelOmoniyi/base-apparel-coming-soon-master](https://github.com/MichaelOmoniyi/base-apparel-coming-soon-master)
-- Live Site URL: [Add live site URL here](https://michaelomoniyi.github.io/base-apparel-coming-soon-master/)
+- Solution URL: [https://github.com/MichaelOmoniyi/base-apparel-coming-soon-master]
+- Live Site URL: [https://baseapparalle.netlify.app/]
 
 ## My process
 
